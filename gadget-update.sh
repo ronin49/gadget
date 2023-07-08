@@ -5,3 +5,5 @@ git config --global user.name "auto update"
 
 git add .
 git commit -m "auto update"
+
+git push
