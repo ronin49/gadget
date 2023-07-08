@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install git
+
 git config --global user.email "auto-update@auto-update.auto-update"
 git config --global user.name "auto update"
 
