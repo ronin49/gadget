@@ -1,3 +1,5 @@
+# source(.) this file
+
 # print path and then press Alt-c to cd to that path
 bind '"\ec":"\C-acd \n"'
 
