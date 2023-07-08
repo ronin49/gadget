@@ -7,7 +7,7 @@ tmux new-session -d
 tmux split-window -h
 
 #start timer
-tmux send-keys ~/gadget/daylife.sh Enter
+tmux send-keys ~/gadget/daylife.sh C-m
 
 #go to left empty pane
 tmux select-pane -L
