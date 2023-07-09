@@ -4,6 +4,10 @@
 
 while true
 do
-echo -n $(date | sed 's/[^ ]* *[^ ]* *[^ ]* *//' | sed 's/ .*//')
+time=$(date | sed 's/[^ ]* *[^ ]* *[^ ]* *//' | sed 's/ .*//')
+cat day > tmp
+echo $time now------------------------ >> tmp
+clear
+sort tmp
 	sleep 1
 done
