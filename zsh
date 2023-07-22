@@ -1,3 +1,6 @@
+#https://stackoverflow.com/questions/2187829/constantly-updated-clock-in-zsh-prompt
+#https://eax.me/zsh/
+
 # Created by newuser for 5.8.1
 
 #ncmpcppShow() { BUFFER="top"; zle accept-line; }
